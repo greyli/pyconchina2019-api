@@ -1,0 +1,32 @@
+body {
+        font-family: Arial, Calibri, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    }
+
+h1, h2, h3 {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+li {
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.inverse {
+    background: #272822;
+    color: #777872;
+    text-shadow: 0 0 20px #333;
+}
+.inverse h1, .inverse h2 {
+    color: #f3f3f3;
+}
+
+.footnote {
+    position: absolute;
+    bottom: 3em;
+}
+
+.remark-code, .remark-inline-code { font-family: Consolas, 'Courier New', monospace; }
+.remark-slide-content {font-size: 22px;}
